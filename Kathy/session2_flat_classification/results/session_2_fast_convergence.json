@@ -1,0 +1,44 @@
+{
+  "session": 2,
+  "config": {
+    "learning_rate": 3e-05,
+    "batch_size": 32,
+    "weight_decay": 0.05,
+    "name": "fast_convergence"
+  },
+  "eval_top1_accuracy": {
+    "mean": 0.07328950572193815,
+    "std": 0.0,
+    "per_fold": [
+      0.07328950572193815
+    ]
+  },
+  "eval_top5_accuracy": {
+    "mean": 0.1969807645483321,
+    "std": 0.0,
+    "per_fold": [
+      0.1969807645483321
+    ]
+  },
+  "eval_top10_accuracy": {
+    "mean": 0.266617969320672,
+    "std": 0.0,
+    "per_fold": [
+      0.266617969320672
+    ]
+  },
+  "eval_macro_f1": {
+    "mean": 0.04510600495946719,
+    "std": 0.0,
+    "per_fold": [
+      0.04510600495946719
+    ]
+  },
+  "eval_weighted_f1": {
+    "mean": 0.053083571632794806,
+    "std": 0.0,
+    "per_fold": [
+      0.053083571632794806
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "method": "DeBERTa-v3-small + MNR + Projection Head + Hard Negatives + Group Reasoning",
+  "config": {
+    "model": "microsoft/deberta-v3-small",
+    "max_length": 128,
+    "batch_size": 128,
+    "learning_rate": 2e-05,
+    "temperature": 0.05,
+    "projection_dim": 256,
+    "weight_decay": 0.01,
+    "num_epochs_trained": 9,
+    "group_reasoning_k2": 5,
+    "group_reasoning_k3": 15
+  },
+  "flat_results": {
+    "top1": 0.14995131450827653,
+    "top5": 0.3831548198636806,
+    "top10": 0.49415774099318405
+  },
+  "hierarchical_results": {
+    "top1": 0.13339824732229796,
+    "top5": 0.32327166504381694,
+    "top10": 0.41820837390457644
+  }
+}

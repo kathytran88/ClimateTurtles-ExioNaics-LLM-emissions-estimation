@@ -1,0 +1,18 @@
+{
+  "method": "DeBERTa-v3-small + MNR Contrastive Learning",
+  "config": {
+    "model": "microsoft/deberta-v3-small",
+    "max_length": 128,
+    "batch_size": 64,
+    "learning_rate": 2e-05,
+    "temperature": 0.05,
+    "weight_decay": 0.01,
+    "num_epochs_trained": 12
+  },
+  "results": {
+    "val_loss": 4.556094952718425,
+    "top1_accuracy": 0.17526777020447906,
+    "top5_accuracy": 0.4123661148977605,
+    "top10_accuracy": 0.5404089581304771
+  }
+}
