@@ -1,0 +1,24 @@
+{
+  "method": "DeBERTa-v3-small Cross-Encoder + TF-IDF Candidate Retrieval",
+  "config": {
+    "model": "microsoft/deberta-v3-small",
+    "max_length": 192,
+    "batch_size": 8,
+    "num_negatives": 7,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "num_epochs_trained": 6,
+    "eval_top_k": 50
+  },
+  "full_rerank_results": {
+    "top1": 0.054527750730282376,
+    "top5": 0.12074001947419669,
+    "top10": 0.1679649464459591
+  },
+  "tfidf_rerank_results": {
+    "tfidf_recall": 0.5593962999026291,
+    "top1": 0.21567672833495619,
+    "top5": 0.4216163583252191,
+    "top10": 0.49659201557935734
+  }
+}
