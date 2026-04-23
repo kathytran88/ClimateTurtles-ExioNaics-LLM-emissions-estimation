@@ -1,0 +1,24 @@
+{
+  "method": "DeBERTa-v3-small Cross-Encoder (NAICS-2) + NAICS augmentation + sqrt class weights + enriched corpus",
+  "config": {
+    "model": "microsoft/deberta-v3-small",
+    "max_length": 192,
+    "batch_size": 8,
+    "num_classes": 20,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "num_epochs_trained": 3,
+    "class_weighted_loss": "sqrt_inverse_frequency",
+    "label_smoothing": 0.05,
+    "naics6_augmentation": true,
+    "enriched_corpus": true,
+    "max_examples_per_sector": 25
+  },
+  "results": {
+    "top1": 0.6426484907497566,
+    "top3": 0.8495618305744888,
+    "top5": 0.9050632911392406,
+    "macro_f1": 0.5521546215443187,
+    "weighted_f1": 0.635411245890548
+  }
+}
