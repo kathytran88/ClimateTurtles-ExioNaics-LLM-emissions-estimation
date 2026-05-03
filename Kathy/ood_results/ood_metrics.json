@@ -1,0 +1,102 @@
+{
+  "n_samples": 36380,
+  "n_classes_in_test": 12,
+  "n_classes_total": 20,
+  "top1": 0.6856239692138537,
+  "top3": 0.8315832875206157,
+  "top5": 0.8884002199010446,
+  "macro_f1": 0.33641963314588946,
+  "weighted_f1": 0.7167172955680646,
+  "per_class": {
+    "21 (Mining, Quarrying, and Oil and Gas Extra)": {
+      "precision": 0.08300395256916997,
+      "recall": 0.7,
+      "f1-score": 0.14840989399293286,
+      "support": 30.0
+    },
+    "22 (Utilities)": {
+      "precision": 0.9710610932475884,
+      "recall": 0.347926267281106,
+      "f1-score": 0.5122985581000848,
+      "support": 1736.0
+    },
+    "31-33 (Manufacturing)": {
+      "precision": 0.3918341171440787,
+      "recall": 0.8462603878116344,
+      "f1-score": 0.5356516656925775,
+      "support": 2166.0
+    },
+    "44-45 (Retail Trade)": {
+      "precision": 0.5449317038102085,
+      "recall": 0.29574717128365197,
+      "f1-score": 0.38340920586747596,
+      "support": 2563.0
+    },
+    "48-49 (Transportation and Warehousing)": {
+      "precision": 0.9811777359505244,
+      "recall": 0.8535672514619883,
+      "f1-score": 0.9129347010257693,
+      "support": 4275.0
+    },
+    "51 (Information)": {
+      "precision": 0.9658828953434763,
+      "recall": 0.4340169877770872,
+      "f1-score": 0.5989136649514007,
+      "support": 4827.0
+    },
+    "52 (Finance and Insurance)": {
+      "precision": 0.9879873966128397,
+      "recall": 0.9186962094854422,
+      "f1-score": 0.9520827402979409,
+      "support": 5461.0
+    },
+    "54 (Professional, Scientific, and Technical )": {
+      "precision": 0.6841670599339311,
+      "recall": 0.9596227039549893,
+      "f1-score": 0.7988153454094634,
+      "support": 6043.0
+    },
+    "56 (Administrative and Support and Waste Man)": {
+      "precision": 0.8162629757785467,
+      "recall": 0.43363970588235295,
+      "f1-score": 0.5663865546218487,
+      "support": 5440.0
+    },
+    "62 (Health Care and Social Assistance)": {
+      "precision": 0.9673990077958894,
+      "recall": 0.7309236947791165,
+      "f1-score": 0.8326978801281074,
+      "support": 3735.0
+    },
+    "71 (Arts, Entertainment, and Recreation)": {
+      "precision": 0.25949367088607594,
+      "recall": 0.7592592592592593,
+      "f1-score": 0.3867924528301887,
+      "support": 54.0
+    },
+    "72 (Accommodation and Food Services)": {
+      "precision": 0.0536231884057971,
+      "recall": 0.74,
+      "f1-score": 0.1,
+      "support": 50.0
+    },
+    "micro avg": {
+      "precision": 0.7570873550658653,
+      "recall": 0.6856239692138537,
+      "f1-score": 0.7195857254132648,
+      "support": 36380.0
+    },
+    "macro avg": {
+      "precision": 0.6422353997898438,
+      "recall": 0.6683049699147191,
+      "f1-score": 0.5606993885764825,
+      "support": 36380.0
+    },
+    "weighted avg": {
+      "precision": 0.8353682464032579,
+      "recall": 0.6856239692138537,
+      "f1-score": 0.7167172955680645,
+      "support": 36380.0
+    }
+  }
+}

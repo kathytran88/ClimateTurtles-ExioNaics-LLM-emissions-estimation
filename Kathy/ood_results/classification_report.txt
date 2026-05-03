@@ -1,0 +1,21 @@
+OOD evaluation on 36380 samples
+Top-1 0.6856 | Top-3 0.8316 | Top-5 0.8884 | Macro F1 0.3364 | Weighted F1 0.7167
+
+                                               precision    recall  f1-score   support
+
+21 (Mining, Quarrying, and Oil and Gas Extra)     0.0830    0.7000    0.1484        30
+                               22 (Utilities)     0.9711    0.3479    0.5123      1736
+                        31-33 (Manufacturing)     0.3918    0.8463    0.5357      2166
+                         44-45 (Retail Trade)     0.5449    0.2957    0.3834      2563
+       48-49 (Transportation and Warehousing)     0.9812    0.8536    0.9129      4275
+                             51 (Information)     0.9659    0.4340    0.5989      4827
+                   52 (Finance and Insurance)     0.9880    0.9187    0.9521      5461
+54 (Professional, Scientific, and Technical )     0.6842    0.9596    0.7988      6043
+56 (Administrative and Support and Waste Man)     0.8163    0.4336    0.5664      5440
+       62 (Health Care and Social Assistance)     0.9674    0.7309    0.8327      3735
+     71 (Arts, Entertainment, and Recreation)     0.2595    0.7593    0.3868        54
+         72 (Accommodation and Food Services)     0.0536    0.7400    0.1000        50
+
+                                    micro avg     0.7571    0.6856    0.7196     36380
+                                    macro avg     0.6422    0.6683    0.5607     36380
+                                 weighted avg     0.8354    0.6856    0.7167     36380
