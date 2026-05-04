@@ -6,3 +6,6 @@ ExioNAICS_embeddings.csv filter=lfs diff=lfs merge=lfs -text
 .ipynb_checkpoints/ExioNAICS_embeddings_large_name.csv filter=lfs diff=lfs merge=lfs -text
 .ipynb_checkpoints/ExioNAICS_embeddings_large_full.csv filter=lfs diff=lfs merge=lfs -text
 .ipynb_checkpoints/ExioNAICS_embeddings_large_desc.csv filter=lfs diff=lfs merge=lfs -text
+embeddings_OOD.csv filter=lfs diff=lfs merge=lfs -text
+.ipynb_checkpoints/embeddings_OOD.csv filter=lfs diff=lfs merge=lfs -text
+*.csV filter=lfs diff=lfs merge=lfs -text

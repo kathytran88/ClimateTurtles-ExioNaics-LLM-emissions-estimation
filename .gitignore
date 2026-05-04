@@ -5,3 +5,4 @@
 .ipynb_checkpoints/ExioNAICS_embeddings_large.csv
 Tomas/data/
 .ipynb_checkpoints/ood_dataset_embeddings_large.csv
+.gitattributes
