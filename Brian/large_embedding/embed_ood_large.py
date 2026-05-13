@@ -1,19 +1,7 @@
-"""
-Embed the OOD dataset's `model_input` column with text-embedding-3-large (3072 dims)
-and collapse the multi-range naics2_code values to a single code.
-
-Code collapse: 31-33 -> 31, 44-45 -> 44, 48-49 -> 48.
-
-Usage:
-    export OPENAI_API_KEY=sk-...
-    python embed_ood_large.py
-"""
-
 import time
 import pandas as pd
 from openai import OpenAI
 
-# ── Config ──
 INPUT_CSV = "../../Kathy/ood_dataset_official.csv"
 OUTPUT_CSV = "../../.ipynb_checkpoints/ood_dataset_embeddings_large.csv"
 MODEL = "text-embedding-3-large"
@@ -30,7 +18,6 @@ client = OpenAI()
 df = pd.read_csv(INPUT_CSV)
 print(f"Loaded {len(df)} rows from {INPUT_CSV}")
 
-# Normalize naics2_code (string to keep leading zeros / format consistent)
 df["naics2_code"] = df["naics2_code"].astype(str).replace(NAICS2_CODE_FIX)
 print(f"naics2_code unique after fix: {sorted(df['naics2_code'].unique().tolist())}")
 
